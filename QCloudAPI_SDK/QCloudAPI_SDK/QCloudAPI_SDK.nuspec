@@ -1,0 +1,19 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>QCloudAPI_SDK</id>
+    <version>$version$</version>
+    <description>qcloudapi-sdk-dotnet是为了让.Net开发者能够在自己的代码里更快捷方便的使用腾讯云的API而开发的SDK工具包。</description>
+    <projectUrl>https://github.com/QcloudApi/qcloudapi-sdk-dotnet</projectUrl>
+    <authors>Tencent</authors>
+  </metadata>
+  <files>
+    <file src="bin\Release\net35\QCloudAPI_SDK.dll" target="lib\net35" />
+    <file src="bin\Release\net35\QCloudAPI_SDK.pdb" target="lib\net35" />
+    <file src="bin\Release\net40\QCloudAPI_SDK.dll" target="lib\net40" />
+    <file src="bin\Release\net40\QCloudAPI_SDK.pdb" target="lib\net40" />
+    <file src="bin\Release\net45\QCloudAPI_SDK.dll" target="lib\net45" />
+    <file src="bin\Release\net45\QCloudAPI_SDK.pdb" target="lib\net45" />
+    <file src="bin\Release\QCloudAPI_SDK.dll" target="lib\net20" />
+    <file src="bin\Release\QCloudAPI_SDK.pdb" target="lib\net20" />
+  </files>
+</package>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B3F6A15-384A-405A-8545-FC48E500024E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QCloudAPI_SDK</RootNamespace>
+    <AssemblyName>QCloudAPI_SDK</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Center\QCloudAPIModuleCenter.cs" />
+    <Compile Include="Common\Request.cs" />
+    <Compile Include="Common\Sign.cs" />
+    <Compile Include="Module\Base.cs" />
+    <Compile Include="Module\Account.cs" />
+    <Compile Include="Module\Cdb.cs" />
+    <Compile Include="Module\Cdn.cs" />
+    <Compile Include="Module\Vpc.cs" />
+    <Compile Include="Module\Cvm.cs" />
+    <Compile Include="Module\Image.cs" />
+    <Compile Include="Module\Lb.cs" />
+    <Compile Include="Module\Monitor.cs" />
+    <Compile Include="Module\Sec.cs" />
+    <Compile Include="Module\Trade.cs" />
+    <Compile Include="Module\Bill.cs" />
+    <Compile Include="Module\Bm.cs" />
+    <Compile Include="Module\Bmlb.cs" />
+    <Compile Include="Demo.cs" />
+    <Compile Include="Module\Vod.cs" />
+    <Compile Include="Module\Yunsou.cs" />
+    <Compile Include="Module\Wenzhi.cs" />
+    <Compile Include="Module\Market.cs" />
+    <Compile Include="Module\Eip.cs" />
+    <Compile Include="Module\Live.cs" />
+    <Compile Include="Module\Cbs.cs" />
+    <Compile Include="Module\Snapshot.cs" />
+    <Compile Include="Module\Scaling.cs" />
+    <Compile Include="Module\Cmem.cs" />
+    <Compile Include="Module\Tdsql.cs" />
+    <Compile Include="Module\Feecenter.cs" />
+    <Compile Include="Module\Bmeip.cs" />
+    <Compile Include="Module\Bmvpc.cs" />
+    <Compile Include="Module\Bgpip.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
