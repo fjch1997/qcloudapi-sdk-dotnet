@@ -50,6 +50,7 @@
     <Compile Include="Module\Account.cs" />
     <Compile Include="Module\Cdb.cs" />
     <Compile Include="Module\Cdn.cs" />
+    <Compile Include="Module\Cns.cs" />
     <Compile Include="Module\Vpc.cs" />
     <Compile Include="Module\Cvm.cs" />
     <Compile Include="Module\Image.cs" />
