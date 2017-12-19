@@ -6,7 +6,7 @@ using QCloudAPI_SDK.Module;
 
 namespace QCloudAPI_SDK
 {
-    public class Demo
+    class Demo
     {
         static void Main(string[] args)
         {
